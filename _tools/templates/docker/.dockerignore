@@ -1,0 +1,41 @@
+###### PROJECT SPECIFIC ######
+
+
+
+###### GENERIC ###############
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vs
+.editorconfig
+
+# Ignore itself
+.dockerignore
+
+# Ignore ENV files
+.env
+
+# local env files
+.env.local
+.env.*.local
+
+# Ignore GIT files
+.git
+.gitignore
+
+# Ignore docker files
+docker-compose*.yml
+docker-compose.dcproj
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Common GIT project
+*.md
+LICENSE

@@ -1,0 +1,13 @@
+services:
+  bookmarks_${name}:
+    image: 'stefanjarina/bookmarks-backend-${name}'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '${port}:${port}'
+
+networks:
+  default:
+    external:
+      name: bookmarks
